@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IEu7NHzGmA+mdNa2MybPvjYdFqjZ8h2n0W0tRu1/XDo=",
+  "Source": "FeatureToggle",
+  "BasePath": "_content/FeatureToggle",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "FeatureToggleApp.Controllers.FeatureController",
+    "Method": "GetAllFeatures",
+    "RelativePath": "api/features",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FeatureToggleApp.Controllers.FeatureController",
+    "Method": "AddFeature",
+    "RelativePath": "api/features",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feature",
+        "Type": "FeatureToggle.Models.Feature",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FeatureToggleApp.Controllers.FeatureController",
+    "Method": "UpdateFeatureByName",
+    "RelativePath": "api/features/{name}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedFeature",
+        "Type": "FeatureToggle.Models.Feature",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FeatureToggleApp.Controllers.FeatureController",
+    "Method": "DeleteFeatureByName",
+    "RelativePath": "api/features/{name}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

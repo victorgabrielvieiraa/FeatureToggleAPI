@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FeatureToggle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33eeb6b44e7d88a60a77fcf77973d16550121be0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FeatureToggle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FeatureToggle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,6 +10,5 @@ namespace FeatureToggle.Data
         public FeatureDbContext(DbContextOptions<FeatureDbContext> options) : base(options) { }
 
         public DbSet<Feature> Features { get; set; }
-
     }
 }

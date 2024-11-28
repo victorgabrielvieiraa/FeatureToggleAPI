@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using FeatureToggle.Models;
+using FeatureToggle.Data;
+using Microsoft.Extensions.Options;
+using FeatureToggle.Services;
 
 namespace FeatureToggle
 {
@@ -13,6 +18,10 @@ namespace FeatureToggle
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<FeatureDbContext>(Options => Options.UseNpgsql(builder.Configuration.GetConnectionString("Defaultconnection")));
+            builder.Services.AddScoped<FeatureService>();
+            builder.Services.AddScoped<FeatureRepository>();
+
 
             var app = builder.Build();
 
