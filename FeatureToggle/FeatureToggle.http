@@ -1,0 +1,6 @@
+@FeatureToggle_HostAddress = http://localhost:5101
+
+GET {{FeatureToggle_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
